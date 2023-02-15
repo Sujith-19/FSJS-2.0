@@ -15,7 +15,7 @@
 // console.log(typeof myArr[7]);
 
 
-// //null datatype
-// let naem = null;
+//null datatype
+let naem = null;
 
-// console.log(typeof(naem));
+console.log(typeof(naem));
