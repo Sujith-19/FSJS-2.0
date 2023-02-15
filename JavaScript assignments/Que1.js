@@ -16,6 +16,6 @@
 
 
 //null datatype
-let naem = null;
+// let naem = null;
 
-console.log(typeof(naem));
+// console.log(typeof(naem));
