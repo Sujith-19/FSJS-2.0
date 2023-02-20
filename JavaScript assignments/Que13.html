@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify age</title>
+</head>
+<body>
+    <label for="">Enter your Age: </label>
+    <input id="age" type="text">
+    <button onclick="verify()">Click me</button>
+    
+</body>
+<script>
+   var age=prompt("what is Your age: ",age)
+   
+        
+        if(age<18){
+            value=18-age;
+            alert("You have to wait: "+ value) ;          
+        }
+        else{
+            alert("You are adult");
+        }
+
+    
+
+</script>
+</html>
