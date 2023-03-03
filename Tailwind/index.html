@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-zinc-800 flex flex-col items-center sticky top-0  z-10">
+        <section
+            class="transition-all duration-500 group  bg-zinc-800 px-0 m-0 flex justify-around flex-col lg:flex-row w-full lg:2-3/4 xl:w-[80%]">
+<!-- Logo and Navbar Section  -->
+            <section class="flex-col flex lg:flex-row lg:items-center relative">
+                <!-- VS Code Logo  -->
+                <div class="px-3 py-2.5 flex gap-2 items-center">
+                    <div><img class="h-[2rem] cursor-pointer" src="./Assets/visual-studio-code(1).png" alt=""></div>
+                    <p class="text-xl md:text-lg xl:text-xl text-white cursor-pointer">Visual Studio Code</p>
+                </div>
+                <!-- Nav Bar and It's made Collapsable using Tailwind group-hover technique -->
+                <nav
+                    class="absolute top-10 inset-x-0 grow hidden transition-all duration-500 group-hover:flex lg:flex lg:static bg-zinc-800">
+                    <ul class="w-full text-white flex flex-col items-stretch lg:flex-row lg:items-center lg:grow">
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white"><a href="#">Docs</a></li>
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white"><a href="#">Updates</a></li>
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white"><a href="#">API</a></li>
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white"><a href="#">Blog</a></li>
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white"><a href="#">Extensions</a></li>
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white"><a href="#">FAQ</a></li>
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white"><a href="#">Learn</a></li>
+                        <li class="p-3 lg:p-2.5 cursor-pointer text-slate-400 hover:text-white lg:hidden"><a href="#"></a>Search</a></li>
+                        <button
+                            class="text-left lg:hidden border-none px-4 py-3 text-white m-0 font-semibold bg-blue-500 hover:bg-blue-600 cursor-pointer"><i class="px-2 fa-solid fa-download"></i>Download</button>
+                    </ul>
+                </nav>
+                <!-- Hidden Hamburger Icon, It will Be activated by hovering  -->
+                <div class="absolute top-3 right-0 lg:hidden text-white text-2xl mx-4"><i class="fa-solid fa-bars"></i>
+                </div>
+            </section>
+
+            <!-- Search Bar and Download  -->
+            <section class="flex">
+                <!-- Search Bar  -->
+                <div
+                    class="hidden lg:flex text-white bg-zinc-600 hover:bg-zinc-700  flex items-center justify-between gap-px">
+                    <span class="mx-2 hidden lg:flex py-3"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input
+                        class="font-semibold hidden h-full xl:flex lg:w-20 xl:w-36 bg-transparent text-sm text-white outline-none py-3"
+                        placeholder="Search Docs..." type="search">
+                </div>
+                <!-- Download Button  -->
+                <div class="cursor-pointer hidden lg:flex">
+                    <button
+                        class="border-none px-3 py-3 text-white m-0 font-semibold bg-blue-500 hover:bg-blue-600 flex gap-1">
+                        <div class="text-white"><i class="fa-solid fa-download"></i></div>
+                        Download
+                    </button>
+                </div>
+            </section>
+        </section>
+    </header>
+</body>
+</html>
