@@ -54,6 +54,7 @@ a{
     border-radius: 3px;
     margin: 10px;
     font-size: 25px;
+    border: none;
 }
 
 .hero-container{
