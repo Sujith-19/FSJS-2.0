@@ -29,7 +29,7 @@
     <section class="sec2"> 
         <div class="nav3">
             <img src="./Images/logo.png" alt="">
-            <div>
+            <div class="logoword">
                 <h1 class="black">LOSANGELES</h1>
                 <h1 class="violet">MOUNTAINS</h1>
             </div>
@@ -42,8 +42,44 @@
         </div>
     </section>
 
-    <section>
+    <section class="sec3">
         <img class="bg2" src="./Images/Section2.jpg" alt="" srcset="">
+        <div class="content">
+            <h1 class="num1">01 <span class="dot"></span></h1>
+            <h6 class="word1">HISTORY</h6>
+            <P class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem labore ab, rerum officia voluptas magnam est mollitia architecto ex nesciunt ut nulla rem minus. Consectetur iusto, quasi praesentium suscipit tenetur quis, voluptates debitis id a provident quibusdam aliquam sequi alias omnis maiores. Rem illum iste hic ad repellendus eos sapiente.</P>
+        </div>
     </section>
-</body>
+
+    <section class="sec4">
+        <div class="content2">
+            <h1 class="num2">02 <span class="dot2"></span></h1>
+            <h6 class="word2">CLIMB</h6>
+            <p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque earum, laborum recusandae molestias aliquam </p>
+        </div> 
+
+    </section>
+    <section class="sec5">
+        <div class="list">
+            <ul class="items">
+                <a onclick="changeImage('./Images/Mountain1.jpg')" class="item1" href="#">MOUNTAIN 1
+                <a onclick="changeImage('./Images/Mountain2.jpg')" class="item2" href="#">MOUNTAIN 2
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <img id="bannerImage" src="./Images/Mountain1.jpg" /> <br/>
+    </section>
+
+    <script>
+        function changeImage(fileName){
+            let img= document.querySelector("#bannerImage");
+            img.setAttribute("src", filename);
+        }
+
+    </script>
+  
+
+ </body>
 </html>

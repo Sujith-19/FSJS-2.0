@@ -8,13 +8,16 @@ body{
     width: 100%;
 }
 
-.sec1,.sec2{
+.sec1,.sec2,.sec3{
     position: relative;
 }
 .sec2{
-    height: 2cm;
+    height: 1.8cm;
 }
+.logoword{
 
+    
+}
 .nav,.nav3{
     position: absolute;
     top: 0;
@@ -32,7 +35,7 @@ body{
     right: 20%;
 }
 .nav img,.nav3 img{
-    width: 90px;
+    width: 75px;
 
 }
 a{
@@ -63,18 +66,164 @@ a{
 }
 .violet{
     color: #414f6b;
+    
 }
 
 .nav4 a{
     color: #414f6b;
 }
 
+.content{
+    position: absolute;
+    bottom: 400px;
+    left: 23%;
+    right: 23%;
+}
+
+.num1{
+    position: absolute;
+    color: #627391;
+    font-family: "poppins";
+    font-size: 10rem;
+    bottom: 300px;
+}
+
+.word1{
+    position: absolute;
+    bottom: 400px;
+    color: #586682;
+    font-family: "poppins";
+    font-size: 3rem;
+    left: 158px;
+
+}
+.para1{
+    position: absolute;
+    font-family: "poppins";
+    bottom: 280px ;
+    padding: 0px 0px 80px 90px;
+}
+
+.dot{
+    position: absolute;
+    bottom: 62px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: #627391;   
+
+}
+.num2{
+    color: #a0a7b5;
+    font-family: "poppins";
+    font-size: 10rem;
+    position: absolute;
+    margin-top: 3px;
+    
+    
+}
+
+.dot2{
+    background-color:#a0a7b5 ;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: 146px;
+    margin-left: 16px;
+}
+
+.sec4{
+    padding: 0px;
+    display: flex;
+    
+    left: 23%;
+    right: 23%;
+    position: absolute;
+    padding: 1px 8px;
+    
+    
+}   
+
+.content2{
+   
+    
+
+}
+
+.word2{
+    position: absolute;
+    font-family: "poppins";
+    font-size: 3rem;
+    color: #414f6b;
+    left: 215px;
+    margin-top: 80px;
+    
+}
+
+.para2{
+    position: absolute;
+    left: 360px;
+    top: 50px;
+    font-family: "poppins";
+    padding: 10px 20px;
+    display: flex;
+    bottom: 2opx;
+}
 
 
 
+.list{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    display: block;
+    align-items: center;
+    height: 1cm;
+    display: inline;
+    background-color: #414f6b;
+    
+    
+    
+    
+}
+
+.item1{
+    color:#414f6b ;
+    font-style: normal;
+    font-size: larger;
+    background-color:#a0a7b5 ;
+    height: 1cm;
+    width: 120px;
+    padding-left: 15px;
+    
 
 
+}
 
+.item2{
+    color:#a0a7b5;
+    font-style: normal;
+    font-size: larger;
+    
+}
+.sec5{
+    margin-top: 5cm;
+}
+
+
+.items{
+    list-style-type: none;
+    display: flex;
+    margin-left: 380px;
+    margin-top: 0px;
+    display: inline-flex;
+    align-items: center;
+    
+    
+}
+#bannerImage{
+    width: 100%;
+}
 
 
 
