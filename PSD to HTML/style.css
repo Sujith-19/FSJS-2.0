@@ -8,16 +8,13 @@ body{
     width: 100%;
 }
 
-.sec1,.sec2,.sec3{
+.sec1,.sec2,.sec3,.sec5{
     position: relative;
 }
 .sec2{
     height: 1.8cm;
 }
-.logoword{
 
-    
-}
 .nav,.nav3{
     position: absolute;
     top: 0;
@@ -62,10 +59,19 @@ a{
 .black{
     color: #4d4d4d;
     
+    
+    
+    
 
 }
 .violet{
     color: #414f6b;
+    font-size: 25px;
+   
+    
+    
+    
+    
     
 }
 
@@ -113,61 +119,65 @@ a{
     background-color: #627391;   
 
 }
+
+.sec4{
+    margin-right:  820px;
+    align-items: center;
+    
+    display: flex;
+
+    
+    height: 4cm;
+    
+}
+
+
+
+.content2{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
 .num2{
-    color: #a0a7b5;
-    font-family: "poppins";
-    font-size: 10rem;
-    position: absolute;
-    margin-top: 3px;
+    font-size: 160px;
+    color: #b0b4be;;
+    
+    
+    margin: auto;
+    
     
     
 }
 
 .dot2{
-    background-color:#a0a7b5 ;
-    height: 30px;
     width: 30px;
+    height: 30px;
+    background-color: #b0b4be;
+    
     position: absolute;
-    margin-top: 146px;
-    margin-left: 16px;
-}
-
-.sec4{
-    padding: 0px;
-    display: flex;
-    
-    left: 23%;
-    right: 23%;
-    position: absolute;
-    padding: 1px 8px;
-    
-    
-}   
-
-.content2{
-   
-    
+    margin-top: 115px;
+    margin-left: 5px;
 
 }
 
 .word2{
-    position: absolute;
-    font-family: "poppins";
-    font-size: 3rem;
+    margin: auto;
+    margin-left: 620px;
+    font-size: 40px;
     color: #414f6b;
-    left: 215px;
-    margin-top: 80px;
-    
-}
-
-.para2{
-    position: absolute;
-    left: 360px;
-    top: 50px;
     font-family: "poppins";
-    padding: 10px 20px;
-    display: flex;
-    bottom: 2opx;
+    position: absolute;
+    
+
+}
+.para2{
+position: absolute;
+margin-right: 60px;
+padding: 10px;
+right: 290px;
+
 }
 
 
@@ -180,34 +190,41 @@ a{
     align-items: center;
     height: 1cm;
     display: inline;
-    background-color: #414f6b;
-    
-    
-    
-    
+    background-color: #414f6b; 
+   
+   
 }
 
 .item1{
-    color:#414f6b ;
+    color: #414f6b ;
     font-style: normal;
-    font-size: larger;
-    background-color:#a0a7b5 ;
+    font-size: 1rem;
+    border: none;
     height: 1cm;
-    width: 120px;
-    padding-left: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #b0b4be;
+    text-decoration: underline;
     
+        
 
 
 }
 
 .item2{
-    color:#a0a7b5;
+    color: #b0b4be;
     font-style: normal;
-    font-size: larger;
-    
+    font-weight: bold;
+    height: 1cm;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #414f6b;
+    text-decoration: underline;
+
 }
 .sec5{
-    margin-top: 5cm;
+    margin-top: 10px;
 }
 
 
@@ -223,12 +240,88 @@ a{
 }
 #bannerImage{
     width: 100%;
+    
+}
+
+.sec6{
+    margin-top: 48px;
+    position: relative;
 }
 
 
 
+.schedule1{
+   
+    width: 8cm;
+    height: 5cm;
+   position: absolute;
+    background-color: white;
+    top: 200px;
+    opacity: 60%;
+    left: 420px;
+     
+}
+
+.sec7{
+    width: 100%;
+    position: absolute;
+    
+    
+    
+    
+} 
+
+.dec,.nov{
+    padding-top: 20px;
+}
+
+.schedule2{
+    width: 8cm;
+    height: 5cm;
+   position: absolute;
+    background-color: white;
+    top: 200px;
+    opacity: 60%;
+    left: 420px;
+}
+
+.img2{
+    width: 75px;
+
+}
+
+.footer{
+    display: flex;
+    height: 2.5cm;
+    position: relative;
+    background-color: #414f6b;
+     
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    
+
+}
+.overlay{
+    height: 2.5cm;
+    background-color: #414f6b;
+    position: absolute;
+}
 
 
+.footer h1{
+    margin: auto;
+}
+
+.foot{
+    display: flex;
+}
+
+.copy{
+    font-style: italic;
+    color: #63769d;
+    font-family: 'poppins';
+}
 
 
 

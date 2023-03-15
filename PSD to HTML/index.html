@@ -52,31 +52,137 @@
     </section>
 
     <section class="sec4">
-        <div class="content2">
+       
             <h1 class="num2">02 <span class="dot2"></span></h1>
             <h6 class="word2">CLIMB</h6>
             <p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque earum, laborum recusandae molestias aliquam </p>
-        </div> 
+         
 
     </section>
     <section class="sec5">
         <div class="list">
             <ul class="items">
-                <a onclick="changeImage('./Images/Mountain1.jpg')" class="item1" href="#">MOUNTAIN 1
-                <a onclick="changeImage('./Images/Mountain2.jpg')" class="item2" href="#">MOUNTAIN 2
+                <button onclick="changeImage('./Images/Mountain1.jpg','.item1')" class="item1" >MOUNTAIN 1</button>
+                <button onclick="changeImage('./Images/Mountain2.jpg')" class="item2" >MOUNTAIN 2</button>
             </ul>
         </div>
     </section>
 
-    <section>
+    <section class="sec6">
         <img id="bannerImage" src="./Images/Mountain1.jpg" /> <br/>
+         
+        <table class="schedule1">
+                <tr>
+                    <th>SCHEDULE</th>
+                    <th></th>
+                    
+                </tr>
+                <tr>
+                    <td>25 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>28 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+
+                </tr>
+                <tr></tr>
+                <tr >
+                    <td class="dec">18 Dec 2016</td>
+                    <td class="dec">Vestibulum viverra</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td class="nov">7 Jan 2017</td>
+                    <td class="nov">Vestibulum viverra</td>
+                </tr>
+            </table>
+
+            <table class="schedule2">
+                <tr>
+                    <th>SCHEDULE</th>
+                    <th></th>
+                    
+                </tr>
+                <tr>
+                    <td>17 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                    <td>13 Dec 2016</td>
+                    <td>Vestibulum viverra</td>
+
+                </tr>
+                <tr><br></tr>
+                <tr>
+                    <td>28 Dec 2016</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+                <tr> </tr>
+                <tr>
+                    <td>9 Feb 2017</td>
+                    <td>Vestibulum viverra</td>
+                </tr>
+            </table> 
+        
+    </section>
+
+    <section class="sec7" >
+            <nav class="footer">
+                
+                <div class="foot">
+                    <img class="img2" src="./Images/logo.png" alt="">
+                    <div>
+                        <h1>LOSANGELES</h1>
+                        <h1>MOUNTAINS</h1>
+                    </div>
+                                        
+                </div>
+                <p class="copy">COPYRIGHT 2016.ALL RIGHTS RESERVED</p>
+                <div class="overlay">
+
+                </div>
+            </nav>
+           
     </section>
 
     <script>
-        function changeImage(fileName){
+        
+
+
+        function changeImage(onclick,item){
             let img= document.querySelector("#bannerImage");
-            img.setAttribute("src", filename);
-        }
+            img.setAttribute("src", onclick);                      
+               if(item=='.item1'){
+                document.querySelector('.item1').style.backgroundColor='#b0b4be'
+                document.querySelector('.item1').style.color='#414f6b'
+                document.querySelector('.item2').style.backgroundColor='#414f6b'
+                document.querySelector('.item2').style.color='#b0b4be'
+                document.querySelector('.schedule1').style.visibility=false;
+                document.querySelector('.schedule2').style.hidden=true;
+               
+               }
+              else{
+                document.querySelector('.item2').style.backgroundColor='#b0b4be'
+                document.querySelector('.item2').style.color='#414f6b'
+                document.querySelector('.item1').style.backgroundColor='#414f6b'
+                document.querySelector('.item1').style.color='#b0b4be'
+                document.querySelector('.schedule1').hidden=false;
+                document.querySelector('.schedule2').hidden=true;
+              }  
+        }   
+        
+        // function changeBox(onclick){
+        //     let box1=document.querySelector('.schedule1');
+        //     box1.toggle("div table")
+            
+        //     let box2=document.querySelector('.schedule2');
+        //     box2.setAttribute('div table',onclick);
+            
+
+        // }
+
+        
 
     </script>
   
