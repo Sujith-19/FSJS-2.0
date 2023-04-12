@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style-type: none;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.nav1 ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;  
+    
+}
+.nav1 li{
+    display: inline-block;
+    width: 150px;
+   
+}
+
+.line1{
+    margin-top: 13px;
+    height: 1px;
+    background: black;
+}
+
+.main{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.img2{
+    
+    padding-bottom: 220px;
+}
+.mleft{
+    padding: 38px;
+    margin: 100px 0px 180px 180px;
+}
+
+.mleft h1{
+    font-size: 50px;
+}
+.mleft p{
+    font-size: 18px;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+.button{
+    width: 7cm;
+    height: 60px;
+    background-color: #1492E6 ;
+    color: white;
+    border-radius: 130px;
+    border: none;
+    font-size:x-large;
+    padding-bottom: 6px;
+    margin-top: 80px;
+    
+
+}
+
+.banner{
+    
+}
+h5{
+    text-align: center;
+    
+}
+
+.card-body{
+    margin-top: 18px;
+}
+
+.card-text{
+    margin-top: 22px;
+}
+
+.banner2{
+    margin-top: 180px;
+}
+
+.head1{
+    margin: 120px 120px;
+}
+
+.sec3{
+    margin: 0 0 15%  15%;
+}
+
+.button1{
+    width: 7cm;
+    height: 60px;
+    background-color: #1492E6 ;
+    color: white;
+    border-radius: 130px;
+    border: none;
+    font-size:x-large;
+    padding-bottom: 6px;
+}
+
+.para1{
+    margin-top: 10px;
+    width: 30%;
+     
+}
+.head2{
+    margin-left: 30px;
+}
