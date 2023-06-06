@@ -157,8 +157,7 @@ h5{
       }
 
 .star{
-    width: 100%;
-    color: #F8FAFC;
+    margin-left: 40px;
 
 
 }
@@ -166,3 +165,20 @@ h5{
 .last{
     margin-top: 220px;
 }
+
+.rect{
+    height: 400px;
+    width: 80%;
+    background-color: #F8FAFC;
+    border-radius: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+.text{
+   margin-top: 60px;
+   margin-left: 10px;
+   font-size: 2rem;
+   font-weight: bold;
+}
+
